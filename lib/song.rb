@@ -7,11 +7,11 @@ class Song
      @@count += 1
    end
     
-   def count
+   def self.count
      puts @@count
    end
    
-   def genres
+   def self.genres
      @@genres = []
    end
    
